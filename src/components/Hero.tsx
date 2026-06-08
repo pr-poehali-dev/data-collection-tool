@@ -19,19 +19,14 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/84519e0b-bd57-4110-89e4-2388b758880c/files/0655855e-c949-4171-a655-2339443d0590.jpg"
-          alt="Спортивное мероприятие SPD"
+          src="https://cdn.poehali.dev/projects/84519e0b-bd57-4110-89e4-2388b758880c/bucket/714f9097-070b-4a94-80b7-61dbadc7138f.jpg"
+          alt="Салымские Игры"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white px-6 flex flex-col items-center">
-        <img
-          src="https://cdn.poehali.dev/projects/84519e0b-bd57-4110-89e4-2388b758880c/bucket/714f9097-070b-4a94-80b7-61dbadc7138f.jpg"
-          alt="Салымские Игры"
-          className="w-[420px] max-w-[80vw] mb-8 drop-shadow-2xl"
-        />
-        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8">
+      <div className="relative z-10 text-center text-white px-6 flex flex-col items-center" style={{marginTop: '55vh'}}>
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8 drop-shadow-lg">
           21 – 27 июля 2025 года · Корпоративный турнир
         </p>
         <a
