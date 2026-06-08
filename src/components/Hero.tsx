@@ -25,11 +25,12 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white px-6">
-        <p className="text-sm md:text-base uppercase tracking-widest mb-4 opacity-80">Салым Петролеум Девелопмент</p>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-tight">
-          СПОРТИВНЫЕ<br />ИГРЫ 2025
-        </h1>
+      <div className="relative z-10 text-center text-white px-6 flex flex-col items-center">
+        <img
+          src="https://cdn.poehali.dev/projects/84519e0b-bd57-4110-89e4-2388b758880c/bucket/714f9097-070b-4a94-80b7-61dbadc7138f.jpg"
+          alt="Салымские Игры"
+          className="w-[420px] max-w-[80vw] mb-8 drop-shadow-2xl"
+        />
         <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8">
           21 – 27 июля 2025 года · Корпоративный турнир
         </p>
